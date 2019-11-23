@@ -3560,6 +3560,11 @@ Prefab:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 114714979117753626, guid: 9884edf5ee3ec1645b4bef040f838d09,
+        type: 2}
+      propertyPath: m_MoveSpeedMultiplier
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9884edf5ee3ec1645b4bef040f838d09, type: 2}
   m_IsPrefabAsset: 0
