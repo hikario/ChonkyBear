@@ -1,15 +1,18 @@
 fileFormatVersion: 2
-guid: c28f077c1b82d1a4db53ef15b354efae
+guid: da7bfb909362f0b489aaeeb0dd6bf126
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: polySurface5
+    100004: polySurface8
     400000: //RootNode
-    2100000: lambert11
-    2100002: lambert3
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Mesh_Hikari_Tree01
+    400002: polySurface5
+    400004: polySurface8
+    2100000: lambert1
+    2300000: polySurface8
+    3300000: polySurface8
+    4300000: polySurface8
   externalObjects: {}
   materials:
     importMaterials: 1

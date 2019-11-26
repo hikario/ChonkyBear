@@ -9,45 +9,44 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1950527374554842}
+  m_RootGameObject: {fileID: 1223133779435338}
   m_IsPrefabAsset: 1
---- !u!1 &1950527374554842
+--- !u!1 &1223133779435338
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4399921237275464}
-  - component: {fileID: 33865000925021600}
-  - component: {fileID: 23495517561888284}
-  - component: {fileID: 95735806835386328}
+  - component: {fileID: 4839270238611214}
+  - component: {fileID: 33250058453940218}
+  - component: {fileID: 23459132889985908}
   m_Layer: 0
-  m_Name: Mesh_Hikari_Tree04
+  m_Name: Mesh_Gu_Rock_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4399921237275464
+--- !u!4 &4839270238611214
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1950527374554842}
-  m_LocalRotation: {x: 0.00000006657903, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.894494, y: -13.198286, z: -110.77722}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_GameObject: {fileID: 1223133779435338}
+  m_LocalRotation: {x: -0.5698577, y: -0.3819668, z: -0.011295502, w: 0.72748613}
+  m_LocalPosition: {x: -4.502728, y: -0.039518833, z: -12.616739}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23495517561888284
+--- !u!23 &23459132889985908
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1950527374554842}
+  m_GameObject: {fileID: 1223133779435338}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -57,7 +56,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: f393f46465ce8be40a02cdcc1f1d0a01, type: 2}
+  - {fileID: 2100000, guid: 98ac522932f74fb45aa5d1ce43ed2ae7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,28 +76,10 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33865000925021600
+--- !u!33 &33250058453940218
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1950527374554842}
-  m_Mesh: {fileID: 4300000, guid: c28f077c1b82d1a4db53ef15b354efae, type: 3}
---- !u!95 &95735806835386328
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1950527374554842}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c28f077c1b82d1a4db53ef15b354efae, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_GameObject: {fileID: 1223133779435338}
+  m_Mesh: {fileID: 4300000, guid: b9935833903eb584db79c11b35b01771, type: 3}

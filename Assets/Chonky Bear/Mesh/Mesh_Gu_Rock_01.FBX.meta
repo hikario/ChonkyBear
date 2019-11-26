@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: c28f077c1b82d1a4db53ef15b354efae
+guid: 65f56c39b1956f54684ed6b1b23d8ce0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: lambert11
-    2100002: lambert3
+    2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Mesh_Hikari_Tree01
+    4300000: Low Poly 02
   externalObjects: {}
   materials:
     importMaterials: 1

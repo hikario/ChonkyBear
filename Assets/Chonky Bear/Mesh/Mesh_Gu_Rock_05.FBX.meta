@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: dbdf58a97d7d30147af63518fc08ea18
+guid: 006825712519a6f4dac2f3690672ad29
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: blinn3
+    2100000: Gu_ChonkyBear_Rock_06_wire_086086086
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Mesh_HikariTree03
+    4300000: GeoSphere001
   externalObjects: {}
   materials:
     importMaterials: 1
