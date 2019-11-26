@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23495517561888284}
   - component: {fileID: 95735806835386328}
   m_Layer: 0
-  m_Name: Mesh_Hikari_Tree01
+  m_Name: Mesh_Hikari_Tree04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
