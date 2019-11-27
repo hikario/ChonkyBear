@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Collectible
   - Floor
+  - FBO
   layers:
   - Default
   - TransparentFX

@@ -12,5 +12,6 @@ public class CollectedItems : ScriptableObject
     //is specified in the angle brackets (< >).
     //List<BadGuy> badguys = new List<BadGuy>();
     public List<Collectible> trash = new List<Collectible>();
-    
+
+    public void reset() { score = resetScore; }
 }

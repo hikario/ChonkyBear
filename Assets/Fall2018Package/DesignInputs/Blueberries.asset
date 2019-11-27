@@ -3,16 +3,16 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30ddae01ce950ea4d84a5a56acca91de, type: 3}
-  m_Name: Stars
+  m_Name: Blueberries
   m_EditorClassIdentifier: 
-  type: Stars
-  description: This is a pickup with a high value
+  type: Blueberries
+  description: Simple blueberries that fill some hunger.
   value: 1
   pickupSound: {fileID: 0}
   pickupEffect: {fileID: 0}
