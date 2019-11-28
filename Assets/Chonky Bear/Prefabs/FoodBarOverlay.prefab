@@ -37,7 +37,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224478671413045818}
   - component: {fileID: 114573693085975922}
-  - component: {fileID: 114161140588302602}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -116,17 +115,6 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &114161140588302602
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1095566292476960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e55214f6f399a09408243f18f8b07f11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114329499243190270
 MonoBehaviour:
   m_ObjectHideFlags: 1
