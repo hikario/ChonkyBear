@@ -1,16 +1,16 @@
 ﻿// Patrol.cs
 using UnityEngine;
 using System.Collections;
- 
+
 
 public class Patrol : MonoBehaviour
 {
 
-    public Transform[] wayPoints;
-    private int destPoint = 0;
-    private UnityEngine.AI.NavMeshAgent agent;
-	public bool aggro = false;
-	private Transform player;
+  public Transform[] wayPoints;
+  private int destPoint = 0;
+  private UnityEngine.AI.NavMeshAgent agent;
+  public bool flee = false;
+  private Transform player;
 
 
     void Start()
@@ -24,7 +24,9 @@ public class Patrol : MonoBehaviour
 
         GotoNextPoint();
 
-		player = GameObject.FindWithTag ("Player").transform;
+        player = GameObject.FindWithTag("Player").transform;
+
+
     }
 
 
@@ -41,59 +43,62 @@ public class Patrol : MonoBehaviour
         // cycling to the start if necessary.
         destPoint = (destPoint + 1) % wayPoints.Length;
     }
-	
+
 
     void Update()
     {
-        // Choose the next destination point when the agent gets
-        // close to the current one.		
-        //if (agent.remainingDistance < 2.0f)
-        //    GotoNextPoint();
-        //print("Next Stop");
-		if (aggro == true) 
-		{
-			agent.destination = player.position;
-		}
+      // Choose the next destination point when the agent gets
+      // close to the current one.
+
+      if (agent.remainingDistance < 2.0f) {
+        GotoNextPoint();
+        print("Next Stop");
+      }
+      if (flee == true) {
+        agent.destination = player.position;
+      }
     }
 
-	void OnTriggerEnter(Collider other)
+  void OnTriggerEnter(Collider other)
     {
-		if (other.tag == "Player")
-        {
-			aggro = true;
-            ChaseTime();
-		}
+  // if (other.tag == "Player")
+    //     {
+  // 	aggro = true;
+    //         ChaseTime();
+  // }
+      if (other.tag == "Player") {
 
-        if (other.tag == "WayPoint")
-        {
-            GotoNextPoint();
-            print("Next Stop");
-        }
-	}
+      }
+      if (other.tag == "WayPoint")
+      {
+        GotoNextPoint();
+        print("Next Stop");
+      }
+  }
 
-    void ChaseTime()
+    // void ChaseTime()
+    // {
+    //     //agent.destination = player.position;
+    //     Debug.Log("AGGROOOOOO");
+    // }
+
+  void OnTriggerExit(Collider other)
     {
-        //agent.destination = player.position;
-        Debug.Log("AGGROOOOOO");
-    }
-
-	void OnTriggerExit(Collider other)
-    {
-		if (other.tag == "Player")
+  if (other.tag == "Player")
         {
-			//aggro = false;
-			StartCoroutine(LosePlayer());
-		}
-	}
+  //aggro = false;
+  StartCoroutine(LosePlayer());
+  }
+  }
 
-	IEnumerator LosePlayer()
-	{
-		yield return new WaitForSeconds (5);
-		print (Time.time);
-		aggro = false;
-		GotoNextPoint ();
+  IEnumerator LosePlayer()
+  {
+  yield return new WaitForSeconds (5);
+  print (Time.time);
+  flee = false;
+  GotoNextPoint ();
 
-	}
+  }
 
-   
+
 }

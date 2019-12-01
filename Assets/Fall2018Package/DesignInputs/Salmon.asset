@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30ddae01ce950ea4d84a5a56acca91de, type: 3}
   m_Name: Salmon
   m_EditorClassIdentifier: 
-  type: Blueberries
-  description: Simple blueberries that fill some hunger.
+  type: Salmon
+  description: Tasty Salmon that fills the hunger meter.
   value: 5
   pickupSound: {fileID: 0}
   pickupEffect: {fileID: 0}
