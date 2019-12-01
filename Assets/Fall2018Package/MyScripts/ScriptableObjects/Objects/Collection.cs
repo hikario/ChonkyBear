@@ -9,7 +9,7 @@ public class Collection : MonoBehaviour
   //public int scoreValue = 1;
 
   void Start() {
-    ui = GameObject.FindWithTag("FBO").GetComponentInChildren(typeof(Slider)) as Slider;
+    ui = GameObject.FindWithTag("FBO").GetComponent(typeof(Slider)) as Slider;
     score.reset();
     ui.value = 0;
   }

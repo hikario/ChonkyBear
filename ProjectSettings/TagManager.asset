@@ -7,6 +7,8 @@ TagManager:
   - Collectible
   - Floor
   - FBO
+  - SeasonTimer
+  - IBST
   layers:
   - Default
   - TransparentFX
