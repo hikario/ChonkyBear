@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 4543225089509878}
   - component: {fileID: 33701980374051538}
   - component: {fileID: 23622036600640066}
-  - component: {fileID: 95808477031917574}
+  - component: {fileID: 64957362543641478}
   m_Layer: 0
   m_Name: Mesh_Hikari_Tree01Orange
   m_TagString: Untagged
@@ -186,21 +186,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1825123908334150}
   m_Mesh: {fileID: 4300000, guid: 442a3aeb856672a40a8c048b31e8c683, type: 3}
---- !u!95 &95808477031917574
-Animator:
-  serializedVersion: 3
+--- !u!64 &64957362543641478
+MeshCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1774885353416592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c28f077c1b82d1a4db53ef15b354efae, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: c28f077c1b82d1a4db53ef15b354efae, type: 3}

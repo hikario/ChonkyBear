@@ -53,6 +53,7 @@ GameObject:
   - component: {fileID: 4576971045502780}
   - component: {fileID: 33069808225067182}
   - component: {fileID: 23571695917048218}
+  - component: {fileID: 64356245285258328}
   m_Layer: 0
   m_Name: Mesh_Hikari_Tree03
   m_TagString: Untagged
@@ -185,3 +186,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1428790105401238}
   m_Mesh: {fileID: 4300000, guid: e29010e18dc91494097f1bba4941b882, type: 3}
+--- !u!64 &64356245285258328
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911614569180834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 4b612ab605369614287db962ed7813bb, type: 3}
