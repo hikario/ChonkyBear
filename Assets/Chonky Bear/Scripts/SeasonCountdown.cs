@@ -8,11 +8,13 @@ public class SeasonCountdown : MonoBehaviour {
   public float SeasonLengthDefault;
   private bool gameOver = false;
   private RectTransform ibst;
+  private Camera mc;
 
   // Use this for initialization
   void Start () {
     ibst = GameObject.FindWithTag("IBST").GetComponent(typeof(RectTransform)) as RectTransform;
     RemainingSeasonInSeconds = SeasonLengthDefault;
+    mc = Camera.main;
   }
 
   // calculate angle for rect transform
@@ -35,6 +37,7 @@ public class SeasonCountdown : MonoBehaviour {
       if (RemainingSeasonInSeconds < 0) {
         gameOver = true;
         ibst.rotation = Quaternion.identity;
+        mc.SendMessage("EndGame");
       } else {
         ibst.Rotate(new Vector3(0, 0, getRotation(Time.deltaTime)));
       }

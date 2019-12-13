@@ -11,6 +11,7 @@ public class Collection : MonoBehaviour
   void Start() {
     ui = GameObject.FindWithTag("FBO").GetComponent(typeof(Slider)) as Slider;
     score.reset();
+    score.endScore = 25;
     ui.value = 0;
   }
 

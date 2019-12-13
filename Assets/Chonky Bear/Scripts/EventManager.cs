@@ -8,9 +8,18 @@ public class EventManager : MonoBehaviour {
   public delegate void PanicInduction();
   public static event PanicInduction StartPanic;
 
+  public delegate void EndingSteps();
+  public static event EndingSteps GameEndSteps;
+
   void CausePanic() {
     if (StartPanic != null) {
       StartPanic();
+    }
+  }
+
+  void EndGame() {
+    if (GameEndSteps != null) {
+      GameEndSteps();
     }
   }
 

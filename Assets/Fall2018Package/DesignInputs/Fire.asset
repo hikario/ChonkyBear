@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Fire
   m_EditorClassIdentifier: 
   type: Fire
-  description: Simple blueberries that fill some hunger.
+  description: Only you can prevent forest fires.
   value: 0
   pickupSound: {fileID: 0}
   pickupEffect: {fileID: 0}

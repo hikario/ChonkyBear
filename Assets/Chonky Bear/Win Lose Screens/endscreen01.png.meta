@@ -38,12 +38,12 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -51,7 +51,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -89,8 +89,8 @@ TextureImporter:
       name: endscreen01_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 16
+        x: 8
+        y: 7
         width: 1924
         height: 1084
       alignment: 0
@@ -109,8 +109,8 @@ TextureImporter:
       name: endscreen01_1
       rect:
         serializedVersion: 2
-        x: 1956
-        y: 10
+        x: 1949
+        y: 7
         width: 1924
         height: 1084
       alignment: 0

@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Chonky Bear/Scenes/01_Meadow_River.unity
+    guid: 0cb5d44a4c963f145acdb0a0c95d9d1b
+  - enabled: 1
+    path: Assets/Chonky Bear/Scenes/02_Forest_Campsite.unity
+    guid: e18429c84bd3b9648a96859b7d14f0a0
+  - enabled: 1
+    path: Assets/Chonky Bear/Scenes/game over win.unity
+    guid: 73ec3649a2697ae4180e9082d440293c
+  - enabled: 1
+    path: Assets/Chonky Bear/Scenes/game over lose.unity
+    guid: bbb752a14cc142547bf10da45dc937cf
   m_configObjects: {}

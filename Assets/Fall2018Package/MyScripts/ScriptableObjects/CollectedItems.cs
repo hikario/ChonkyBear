@@ -13,5 +13,7 @@ public class CollectedItems : ScriptableObject
     //List<BadGuy> badguys = new List<BadGuy>();
     public List<Collectible> trash = new List<Collectible>();
 
-    public void reset() { score = resetScore; }
+    public void reset() {
+      score = resetScore;
+    }
 }
