@@ -6,16 +6,19 @@ public class HatActivator : MonoBehaviour
 {
     public bool hatIsActive = false;
     public bool strawberryIsActive = false;
+    public bool glassesIsActive = false;
     public GameObject hatStatus;
     private GameObject wornHat;
     private GameObject wornStrawberry;
     private GameObject wornLowStrawberry;
+    private GameObject wornGlasses;
     // Start is called before the first frame update
     void Start()
     {
       wornHat = GameObject.FindGameObjectWithTag("WornHat");
       wornStrawberry = GameObject.FindGameObjectWithTag("WornStraw");
       wornLowStrawberry = GameObject.FindGameObjectWithTag("WornLowStraw");
+      wornGlasses = GameObject.FindGameObjectWithTag("WornGlasses");
       SetHatState();
     }
 
@@ -23,6 +26,7 @@ public class HatActivator : MonoBehaviour
       hatStatus = GameObject.FindGameObjectWithTag("HatState");
       hatIsActive = hatStatus.GetComponent<GameHatState>().hatActive;
       strawberryIsActive = hatStatus.GetComponent<GameHatState>().strawberryActive;
+      glassesIsActive = hatStatus.GetComponent<GameHatState>().glassesActive;
 
       if (hatIsActive) {
         wornHat.SetActive(true);
@@ -41,6 +45,12 @@ public class HatActivator : MonoBehaviour
       } else {
         wornStrawberry.SetActive(false);
         wornLowStrawberry.SetActive(false);
+      }
+
+      if (glassesIsActive) {
+        wornGlasses.SetActive(true);
+      } else {
+        wornGlasses.SetActive(false);
       }
 
     }
