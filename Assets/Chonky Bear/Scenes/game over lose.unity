@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -52,7 +52,7 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
     m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 10
     m_Resolution: 2
@@ -130,7 +130,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &604069589
 RectTransform:
@@ -166,8 +166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frames:
-  - {fileID: 21300000, guid: 90bd0c65ff5ad8f4493e978acf2a8fdc, type: 3}
-  - {fileID: 21300002, guid: 90bd0c65ff5ad8f4493e978acf2a8fdc, type: 3}
+  - {fileID: 21300000, guid: ae39ca02c3c4d9344b56498cba7b79ae, type: 3}
+  - {fileID: 21300002, guid: ae39ca02c3c4d9344b56498cba7b79ae, type: 3}
   framerate: 2
 --- !u!114 &604069591
 MonoBehaviour:
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -284,7 +284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233632235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 683, y: 1, z: -1005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -432,6 +432,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1656345515}
     m_Modifications:
+    - target: {fileID: 1535401263286850, guid: 556089072706a7c4cb9ae3a5c8a7b434, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 224630612640975752, guid: 556089072706a7c4cb9ae3a5c8a7b434,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -540,6 +544,11 @@ PrefabInstance:
     - target: {fileID: 114210159976064232, guid: 556089072706a7c4cb9ae3a5c8a7b434,
         type: 2}
       propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114210159976064232, guid: 556089072706a7c4cb9ae3a5c8a7b434,
+        type: 2}
+      propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 222802360916156426, guid: 556089072706a7c4cb9ae3a5c8a7b434,
