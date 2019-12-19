@@ -9,13 +9,12 @@ TagManager:
   - FBO
   - SeasonTimer
   - IBST
-  - Target
-  - WayPoint
-  - Fire
-  - Projectile
-  - Checkpoint
-  - Fish
-  - music
+  - HatState
+  - WornHat
+  - WornStraw
+  - CollHat
+  - CollStraw
+  - WornLowStraw
   layers:
   - Default
   - TransparentFX
