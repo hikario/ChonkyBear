@@ -4,14 +4,15 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: faf7db05d259ffb47b2b158a2e462d2a, type: 3}
   m_Name: Default
   m_EditorClassIdentifier: 
-  current: {r: 0.7075472, g: 0.66206646, b: 0.110137075, a: 1}
+  current: {r: 0.67977, g: 0.8584906, b: 0.54668033, a: 1}
   colors:
   - {r: 0, g: 0.122, b: 0.247, a: 1}
   - {r: 0, g: 0.455, b: 0.851, a: 1}
