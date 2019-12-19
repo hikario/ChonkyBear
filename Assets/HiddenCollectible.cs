@@ -19,6 +19,8 @@ public class HiddenCollectible : MonoBehaviour
         hatStatus.GetComponent<GameHatState>().hatActive = true;
       } else if (gameObject.tag == "CollStraw") {
         hatStatus.GetComponent<GameHatState>().strawberryActive = true;
+      } else if (gameObject.tag == "CollGlasses") {
+        hatStatus.GetComponent<GameHatState>().glassesActive = true;
       }
 
       mc.SendMessage("UpdateHats");
