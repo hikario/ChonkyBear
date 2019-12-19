@@ -16,6 +16,13 @@ TagManager:
   - Checkpoint
   - Fish
   - music
+  - WornHat
+  - WornStraw
+  - WornLowStraw
+  - CollHat
+  - CollStraw
+  - WornGlasses
+  - CollGlasses
   layers:
   - Default
   - TransparentFX

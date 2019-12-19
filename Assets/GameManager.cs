@@ -12,12 +12,17 @@ public class GameManager : MonoBehaviour {
 
   private bool win = false;
   private float fadeSpeed = 2.0f;
+  private Scene scene;
 
   private enum FadeDirection {
     In,
     Out
   }
   // Use this for initialization
+
+  void Start() {
+    scene = SceneManager.GetActiveScene();
+  }
 
   void OnEnable() {
     EventManager.GameEndSteps += HandleEndScreen;
@@ -35,8 +40,12 @@ public class GameManager : MonoBehaviour {
     }
     // Load appropriate screen
     if (win) {
-
-      StartCoroutine(FadeAndLoadScene("game over win"));
+      if (scene.name == "Scene2") {
+        StartCoroutine(FadeAndLoadScene("game over win"));
+      }
+      else if (scene.name == "Scene1") {
+        StartCoroutine(FadeAndLoadScene("Scene2"));
+      }
     } else {
       StartCoroutine(FadeAndLoadScene("game over lose"));
     }

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30ddae01ce950ea4d84a5a56acca91de, type: 3}
   m_Name: Blueberries
   m_EditorClassIdentifier: 
-  type: Blueberries
+  type: Berry
   description: Simple blueberries that fill some hunger.
   value: 1
   pickupSound: {fileID: 8300000, guid: 094effa24d1e0134ba5975d7dc5c1a48, type: 3}

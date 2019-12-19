@@ -11,6 +11,9 @@ public class EventManager : MonoBehaviour {
   public delegate void EndingSteps();
   public static event EndingSteps GameEndSteps;
 
+  public delegate void HatUpdate();
+  public static event HatUpdate UpdateHatStateListeners;
+
   void CausePanic() {
     if (StartPanic != null) {
       StartPanic();
@@ -20,6 +23,12 @@ public class EventManager : MonoBehaviour {
   void EndGame() {
     if (GameEndSteps != null) {
       GameEndSteps();
+    }
+  }
+
+  void UpdateHats() {
+    if (UpdateHatStateListeners != null) {
+      UpdateHatStateListeners();
     }
   }
 
